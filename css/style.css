@@ -33,6 +33,7 @@ img {
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 	height: 18vh;
+	width: 4rem;
 	color: #3b3b3b;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
