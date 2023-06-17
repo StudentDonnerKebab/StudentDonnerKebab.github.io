@@ -22,6 +22,7 @@ body {
 img {
 	width: 3rem;
 	height: 3rem;
+	object-fit: contain;
 }
 
 .item > button {
@@ -31,6 +32,9 @@ img {
 	border-radius: 4px;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
+	height: 18vh;
+	color: #3b3b3b;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .item > button:hover {
@@ -54,7 +58,7 @@ img {
 
 .result-container > header {
 	text-align: center;
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	border-bottom: 1px solid black;
 	padding-bottom: 0.5rem;
 }
